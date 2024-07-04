@@ -1,0 +1,14 @@
+@font-face {
+  font-family: theOne;
+  src: url(./assets/font/FiraCodeRegular.ttf);
+}
+
+html,
+body {
+  background-color: #282C33;
+  font-family: theOne;
+}
+
+body #root {
+  padding: 5px 10% 5px;
+}

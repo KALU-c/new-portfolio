@@ -1,0 +1,33 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container p {
+  font-weight: 900;
+  font-size: 25px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+.nav-container ul {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  font-size: 22px;
+  color: #ABB2BF;
+}
+
+.nav-container ul li:hover {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+.nav-container ul li:active {
+  cursor: pointer;
+  color: #FFFFFF;
+}
+
+.nav-container .mini-hashtag {
+  color: #C778DD;
+}
