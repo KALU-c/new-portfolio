@@ -17,6 +17,8 @@ import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import twoSideArrow from "../assets/twoSideArrow.svg";
 import greaterThanOrEqual from "../assets/greaterThanOrEqual.svg";
+import rectangle from "../assets/rectangle.png";
+import longHorizontalLine from "../assets/longHorizontalLine.png";
 
 export default {
   discord,
@@ -38,4 +40,6 @@ export default {
   project3,
   twoSideArrow,
   greaterThanOrEqual,
+  rectangle,
+  longHorizontalLine,
 };

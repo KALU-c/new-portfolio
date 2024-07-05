@@ -1,18 +1,28 @@
-import "./Separator.css";
+import styles from "./Separator.module.css";
 import images from "../../constants/images";
 
-const Separator = () => {
-  return (
-    <div className="separator-container">
-      <div className="text">
-        <p><span className="hashtag">#</span>Projects</p>
-        <img src={images.horizontalLine} className="line"/>
-      </div>
-      <div className="view-all">
-        <p>View all</p>
-        <img src={images.arrow} className="arrow" />
-      </div>
-    </div>
-  )
+interface Props {
+  text: string;
+  show?: boolean;
 }
-export default Separator
+
+const Separator = ({ text, show }: Props) => {
+  return (
+    <div className={styles["separator-container"]}>
+      <div className={styles.text}>
+        <p>
+          <span className={styles.hashtag}>#</span>
+          {text}
+        </p>
+        <img src={images.horizontalLine} className={styles.line} />
+      </div>
+      {show && (
+        <div className={styles["view-all"]}>
+          <p>View all</p>
+          <img src={images.arrow} className={styles.arrow} />
+        </div>
+      )}
+    </div>
+  );
+};
+export default Separator;

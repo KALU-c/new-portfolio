@@ -21,4 +21,21 @@ const ProjectCardData = [
   }
 ];
 
-export default { ProjectCardData }
+const SkillCardData = [
+  {
+    title1: "Languages",
+    title2: "Databases",
+    title3: "Other",
+    title4: "Tools",
+    title5: "Frameworks",
+  },
+  {
+    description1: "Typescript Lua Python Javascript",
+    description2: "SQLite PostgreSQL Mongo",
+    description3: "HTML CSS EJS SCSS REST",
+    description4: "VSCode Linux Figma Arc Git Font Awesome",
+    description5: "React Vue Discord.js Express.js Flask",
+  }
+]
+
+export default { ProjectCardData, SkillCardData }
