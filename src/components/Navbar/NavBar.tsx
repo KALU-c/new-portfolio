@@ -1,22 +1,22 @@
-import "./NavBar.css";
+import styles from "./NavBar.module.css";
 import images from "../../constants/images";
 
 const NavBar = () => {
   return (
     <>
-      <div className="sticky-nav">
-        <img src={images.verticalLine} className="vertical-line" />
-        <img src={images.github} className="github socials" />
-        <img src={images.telegram} className="telegram socials" />
-        <img src={images.linkedin} className="linkedin socials" />
+      <div className={styles["sticky-nav"]}>
+        <img src={images.verticalLine} className={styles["vertical-line"]} />
+        <img src={images.github} className={styles.github} />
+        <img src={images.telegram} className={styles.telegram} />
+        <img src={images.linkedin} className={styles.linkedin} />
       </div>
-      <div className="nav-container">
-        <p className="logo">RealKal</p>
+      <div className={styles["nav-container"]}>
+        <p className={styles.logo}>RealKal</p>
         <ul>
-          <li><span className="mini-hashtag">#</span>home</li>
-          <li><span className="mini-hashtag">#</span>works</li>
-          <li><span className="mini-hashtag">#</span>about-me</li>
-          <li><span className="mini-hashtag">#</span>contacts</li>
+          <li><span className={styles["mini-hashtag"]}>#</span>home</li>
+          <li><span className={styles["mini-hashtag"]}>#</span>works</li>
+          <li><span className={styles["mini-hashtag"]}>#</span>about-me</li>
+          <li><span className={styles["mini-hashtag"]}>#</span>contacts</li>
         </ul>
       </div>
     </>

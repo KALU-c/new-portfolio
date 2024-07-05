@@ -26,6 +26,11 @@
   gap: 10px;
 }
 
+.view-all:hover {
+  cursor: pointer;
+  color: var(--color-grey);
+}
+
 .hashtag {
   color: var(--color-purple);
 }

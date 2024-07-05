@@ -47,7 +47,7 @@
   border: 1px solid var(--color-grey);
   border-top: none;
   position: absolute;
-  right: 10px;
+  right: 0px;
   font-size: 22px;
   padding: 20px 20px;
   margin: 0;
@@ -55,7 +55,7 @@
 
 .semi-rectangle {
   position: absolute;
-  right: 0px;
+  right: -40px;
   top: 93%;
 }
 

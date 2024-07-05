@@ -1,64 +1,32 @@
-import "./ProjectCard.css";
+import styles from "./ProjectCard.module.css";
 import images from "../../constants/images";
+import data from "../../constants/data";
 
 const ProjectCard = () => {
   return (
-    <div className="card-container">
-      <div className="card-items">
-        <img src={images.project1} className="project-img" />
-        <p className="languages">HTML CSS JAVASCRIPT</p>
-        <div>
-          <h2 className="title">ChertNodes</h2>
-          <p className="description">Minecraft servers hosting</p>
-          <div className="buttons">
-            <button>
-              Live <img src={images.twoSideArrow} className="arrow-img" />
-            </button>
-
-            <button>
-              Cached{" "}
-              <img src={images.greaterThanOrEqual} className="greater-img" />
-            </button>
-          </div>
-        </div>
+    <>
+      <div className={styles.decoration}>
+        <img src={images.dots} className={styles.dots} />
+        <img src={images.semiRectangle} className={styles["semi-rectangle"]} />
       </div>
-      <div className="card-items">
-        <img src={images.project2} className="project-img" />
-        <p className="languages">React Express Discord.js Node.js SCSS Python Flask </p>
-        <div className="mini-container">
-          <h2 className="title">ChertNodes</h2>
-          <p className="description">Minecraft servers hosting</p>
-          <div className="buttons">
-            <button>
-              Live <img src={images.twoSideArrow} className="arrow-img" />
-            </button>
-
-            <button>
-              Cached{" "}
-              <img src={images.greaterThanOrEqual} className="greater-img" />
-            </button>
+      <div className={styles["card-container"]}>
+        {data.ProjectCardData.map((detail) => (
+          <div className={styles["card-items"]}>
+            <img src={detail.imgURL} className={styles["project-img"]} />
+            <p className={styles.languages}>{detail.languages}</p>
+            <div className={styles["mini-container"]}>
+              <h2 className={styles.title}>{detail.title}</h2>
+              <p className={styles.description}>{detail.description}</p>
+              <div className={styles.buttons}>
+                <button>
+                  Live <img src={images.twoSideArrow} className={styles["arrow-img"]} />
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
+        ))}
       </div>
-      <div className="card-items">
-        <img src={images.project3} className="project-img" />
-        <p className="languages">HTML CSS JAVASCRIPT</p>
-        <div>
-          <h2 className="title">ChertNodes</h2>
-          <p className="description">Minecraft servers hosting</p>
-          <div className="buttons">
-            <button>
-              Live <img src={images.twoSideArrow} className="arrow-img" />
-            </button>
-
-            <button>
-              Cached{" "}
-              <img src={images.greaterThanOrEqual} className="greater-img" />
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 export default ProjectCard;
