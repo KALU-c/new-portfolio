@@ -2,10 +2,11 @@
   display: flex;
   align-items: center;
   margin-top: 70px;
+  gap: 50px;
 }
 
 .hero-container .hero-header {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 800;
   color: #FFFFFF;
 }
@@ -15,7 +16,7 @@
 }
 
 .hero-container .desc {
-  font-size: 22px;
+  font-size: 20px;
   color: #ABB2BF;
 }
 
@@ -25,9 +26,18 @@
   background: transparent;
   color: #FFFFFF;
   border: 1px solid #C778DD;
+  cursor: pointer;
+}
+
+.hero-container button:hover {
+  background-color: #C778DD;
+  color: #282C33;
+  transition: color 0.5s ease;
+  transition: background-color 0.5s ease;
 }
 
 .hero-container .image-container {
+  position: relative;
   height: 390px;
 }
 
