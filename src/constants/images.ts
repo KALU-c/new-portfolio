@@ -12,6 +12,11 @@ import randomLines from "../assets/randomLines.png";
 import image1 from "../assets/Image1.png";
 import horizontalLine from "../assets/horizontalLine.png";
 import arrow from "../assets/arrow.svg";
+import project1 from "../assets/project1.jpg";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project3.png";
+import twoSideArrow from "../assets/twoSideArrow.svg";
+import greaterThanOrEqual from "../assets/greaterThanOrEqual.svg";
 
 export default {
   discord,
@@ -28,4 +33,9 @@ export default {
   image1,
   horizontalLine,
   arrow,
+  project1,
+  project2,
+  project3,
+  twoSideArrow,
+  greaterThanOrEqual,
 };
