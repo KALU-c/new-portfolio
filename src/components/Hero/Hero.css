@@ -8,30 +8,30 @@
 .hero-container .hero-header {
   font-size: 35px;
   font-weight: 800;
-  color: #FFFFFF;
+  color: var(--color-white);
 }
 
 .hero-container .header-color {
-  color: #C778DD;
+  color: var(--color-purple);
 }
 
 .hero-container .desc {
   font-size: 20px;
-  color: #ABB2BF;
+  color: var(--color-grey);
 }
 
 .hero-container button {
   font-size: 20px;
   padding: 10px 25px;
   background: transparent;
-  color: #FFFFFF;
-  border: 1px solid #C778DD;
+  color: var(--color-white);
+  border: 1px solid var(--color-purple);
   cursor: pointer;
 }
 
 .hero-container button:hover {
-  background-color: #C778DD;
-  color: #282C33;
+  background-color: var(--color-purple);
+  color: var(--color-bg);
   transition: color 0.5s ease;
   transition: background-color 0.5s ease;
 }
@@ -67,19 +67,19 @@
   justify-content: center;
   gap: 10px;
   font-size: 20px;
-  border: 1px solid #ABB2BF;
-  color: #ABB2BF;
-  background-color: #282C33;
+  border: 1px solid var(--color-grey);
+  color: var(--color-grey);
+  background-color: var(--color-bg);
   z-index: 4;
   padding: 5px 5px;
 }
 
 .hero-container .image-container .working-on .focus {
-  color: #FFFFFF;
+  color: var(--color-white);
 }
 
 .hero-container .image-container .working-on .rectangle {
   height: 20px;
   width: 20px;
-  background-color: #C778DD;
+  background-color: var(--color-purple);
 }

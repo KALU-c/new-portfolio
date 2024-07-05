@@ -1,0 +1,60 @@
+.quote-container {
+  margin-top: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.quotation-title {
+  border: 1px solid var(--color-grey);
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  padding: 10px 20px;
+  margin-bottom: 0px;
+}
+.quotation-title .img1 {
+  position: absolute;
+  top: -15px;
+  left: 30px;
+  height: 30px;
+  padding: 0px 10px;
+  background-color: var(--color-bg);
+}
+
+.quotation-title .img2 {
+  position: absolute;
+  bottom: -15px;
+  right: 30px;
+  height: 30px;
+  padding: 0px 10px;
+  background-color: var(--color-bg);
+  margin-bottom: 0px;
+  z-index: 1;
+}
+
+.mini-container {
+  position: relative;
+}
+
+.author {
+  border: 1px solid var(--color-grey);
+  border-top: none;
+  position: absolute;
+  right: 0px;
+  font-size: 22px;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.semi-rectangle {
+  position: absolute;
+  right: 0px;
+  top: 88%;
+}
+
+.semi-rectangle .semi-rectangle-img {
+  height: 100px;
+}

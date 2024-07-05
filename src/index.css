@@ -1,6 +1,18 @@
+:root {
+  --color-purple: #C778DD;
+  --color-grey: #ABB2BF;
+  --color-bg: #282C33;
+  --color-white: #FFFFFF;
+}
+
 @font-face {
   font-family: theOne;
   src: url(./assets/font/FiraCodeRegular.ttf);
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
 }
 
 html,
