@@ -1,3 +1,32 @@
+.sticky-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  left: 50px;
+  top: 0;
+}
+
+.sticky-nav .vertical-line {
+  height: 300px;
+  width: 3px;
+}
+
+.sticky-nav .telegram {
+  width: 35px;
+  cursor: pointer;
+}
+
+.sticky-nav .github {
+  width: 40px;
+  cursor: pointer;
+}
+
+.sticky-nav .linkedin {
+  cursor: pointer;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;

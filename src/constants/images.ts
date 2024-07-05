@@ -5,7 +5,7 @@ import linkedin from "../assets/Linkedin.svg";
 import telegram from "../assets/Telegram.svg";
 import twitter from "../assets/Twitter.svg";
 import dots from "../assets/dots.png";
-import horizontalLine from "../assets/horizontalLine.png";
+import verticalLine from "../assets/verticalLine.png";
 import quotationMark from "../assets/quotationMark.png";
 import semiRectangle from "../assets/semiRectangle.png";
 import randomLines from "../assets/randomLines.png";
@@ -19,7 +19,7 @@ export default {
   telegram,
   twitter,
   dots,
-  horizontalLine,
+  verticalLine,
   quotationMark,
   semiRectangle,
   randomLines,
