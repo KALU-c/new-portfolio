@@ -3,7 +3,7 @@ import images from "../../constants/images"
 
 const Quote = () => {
   return (
-    <>
+    <div className="quote-main-container">
       <div className="semi-rectangle">
         <img src={images.semiRectangle} className="semi-rectangle-img" />
       </div>
@@ -17,7 +17,7 @@ const Quote = () => {
           <p className="author">- Dr. Who</p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 export default Quote

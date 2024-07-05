@@ -3,6 +3,7 @@
   align-items: center;
   margin-top: 70px;
   gap: 50px;
+  height: 60vh;
 }
 
 .hero-container .hero-header {
@@ -22,6 +23,7 @@
 
 .hero-container button {
   font-size: 20px;
+  font-weight: 600;
   padding: 10px 25px;
   background: transparent;
   color: var(--color-white);

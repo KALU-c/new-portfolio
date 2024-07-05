@@ -1,3 +1,7 @@
+.quote-main-container {
+  height: 35vh;
+}
+
 .quote-container {
   margin-top: 80px;
   color: white;
@@ -52,7 +56,7 @@
 .semi-rectangle {
   position: absolute;
   right: 0px;
-  top: 88%;
+  top: 93%;
 }
 
 .semi-rectangle .semi-rectangle-img {

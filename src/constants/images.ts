@@ -10,6 +10,8 @@ import quotationMark from "../assets/quotationMark.png";
 import semiRectangle from "../assets/semiRectangle.png";
 import randomLines from "../assets/randomLines.png";
 import image1 from "../assets/Image1.png";
+import horizontalLine from "../assets/horizontalLine.png";
+import arrow from "../assets/arrow.svg";
 
 export default {
   discord,
@@ -24,4 +26,6 @@ export default {
   semiRectangle,
   randomLines,
   image1,
+  horizontalLine,
+  arrow,
 };
