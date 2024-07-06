@@ -1,0 +1,21 @@
+.directory-container {
+  margin: 30px 0px 60px 0px;
+}
+
+.directory {
+  font-size: 25px;
+  color: var(--color-white);
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.directory .slash {
+  color: var(--color-purple);
+  font-size: 30px;
+}
+
+.description {
+  margin: 0;
+  color: var(--color-grey);
+}

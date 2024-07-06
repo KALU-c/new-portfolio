@@ -1,0 +1,11 @@
+.show {
+  margin: 0;
+  color: var(--color-white);
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+.hashtag {
+  color: var(--color-purple);
+  font-weight: 600;
+}

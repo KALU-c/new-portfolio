@@ -1,7 +1,7 @@
 .card-items {
   border: 1px solid var(--color-grey);
-  min-width: 30%;
-  max-width: 30%;
+  min-width: 31%;
+  max-width: 31%;
   align-self: flex-start;
 }
 

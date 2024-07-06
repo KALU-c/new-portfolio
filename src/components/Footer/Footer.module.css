@@ -48,7 +48,7 @@
   gap: 10px;
 }
 
-.telegram:hover, .email:hover, .linkedin:hover {
+.telegram:hover, .email:hover, .linkedin:hover, .github:hover {
   cursor: pointer;
   scale: 1.5;
 }

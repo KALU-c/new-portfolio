@@ -1,23 +1,11 @@
-import Hero from "./components/Hero/Hero"
-import NavBar from "./components/Navbar/NavBar"
-import ProjectCard from "./container/ProjectCard/ProjectCard"
-import Quote from "./components/Quote/Quote"
-import Skills from "./container/Skills/Skills"
-import AboutContainer from "./container/About/AboutContainer"
-import Contact from "./container/Contact/Contact"
-import Footer from "./components/Footer/Footer"
+// import Home from "./pages/Home"
+import Projects from "./pages/Projects"
 
 function App() {
   return (
     <div>
-      <NavBar />
-      <Hero />
-      <Quote />
-      <ProjectCard />
-      <Skills />
-      <AboutContainer />
-      <Contact />
-      <Footer />
+      {/* <Home /> */}
+      <Projects />
     </div>
   )
 }

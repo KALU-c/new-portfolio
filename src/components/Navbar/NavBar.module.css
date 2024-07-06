@@ -27,6 +27,10 @@
   cursor: pointer;
 }
 
+.sticky-nav .telegram:hover, .github:hover, .linkedin:hover {
+  scale: 1.2;
+}
+
 .nav-container {
   display: flex;
   justify-content: space-between;

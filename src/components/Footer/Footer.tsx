@@ -19,10 +19,11 @@ const Footer = () => {
             <img src={images.telegram} className={styles.telegram}/>
             <img src={images.email} className={styles.email}/>
             <img src={images.linkedin} className={styles.linkedin}/>
+            <img src={images.github} className={styles.github} />
           </div>
         </div>
       </div>
-      <p className={styles.copyright}>@ copyright 2024. Made by Kalu</p>
+      <p className={styles.copyright}>&copy; copyright 2024. Made by Kalu</p>
     </>
   );
 };
