@@ -6,7 +6,7 @@ const AboutItem = () => {
     <>
       <div className={styles["about-container"]}>
         <div className={styles["text-container"]}>
-          <p className={styles.text1}>Hello, I'm RealKal</p>
+          <p className={styles.text1}>Hello, I'm Kalu</p>
           <p className={styles.text2}>
             I'm self-taught full-stack developer based in Hossana, Ethiopia. I
             can develop responsive websites from scratch and raise them into

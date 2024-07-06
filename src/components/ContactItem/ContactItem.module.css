@@ -1,7 +1,7 @@
 .contact-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .contact-container .text {
@@ -44,6 +44,7 @@
 .phone:hover {
   cursor: pointer;
   color: var(--color-white);
+  scale: 1.01;
 }
 
 .contact-container .contact-card .phone {

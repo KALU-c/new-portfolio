@@ -5,6 +5,7 @@ import Quote from "./components/Quote/Quote"
 import Skills from "./container/Skills/Skills"
 import AboutContainer from "./container/About/AboutContainer"
 import Contact from "./container/Contact/Contact"
+import Footer from "./components/Footer/Footer"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Skills />
       <AboutContainer />
       <Contact />
+      <Footer />
     </div>
   )
 }

@@ -11,7 +11,7 @@ const NavBar = () => {
         <img src={images.linkedin} className={styles.linkedin} />
       </div>
       <div className={styles["nav-container"]}>
-        <p className={styles.logo}>RealKal</p>
+        <p className={styles.logo}>Kalu</p>
         <ul>
           <li><span className={styles["mini-hashtag"]}>#</span>home</li>
           <li><span className={styles["mini-hashtag"]}>#</span>works</li>
