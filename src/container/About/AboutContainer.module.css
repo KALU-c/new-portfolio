@@ -1,0 +1,12 @@
+.dots {
+  position: absolute;
+  right: -20px;
+  top: 380%;
+}
+
+.rectangle {
+  position: absolute;
+  height: 100px;
+  left: -70px;
+  top: 345%;
+}

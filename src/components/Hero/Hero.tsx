@@ -7,7 +7,7 @@ const Hero = () => {
       <div>
         <p className={styles["hero-header"]}>
           RealKal is a <span className={styles["header-color"]}>web designer</span> and a{" "}
-          <span className={styles["header-color"]}>front-end developer</span>
+          <span className={styles["header-color"]}>full-stack developer</span>
         </p>
         <p className={styles.desc}>
           He crafts a responsive website where technologies meets creativity

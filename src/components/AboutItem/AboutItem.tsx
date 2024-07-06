@@ -4,8 +4,6 @@ import images from "../../constants/images";
 const AboutItem = () => {
   return (
     <>
-      <img src={images.dots} className={styles.dots3} />
-      <img src={images.rectangle} className={styles.rectangle} />
       <div className={styles["about-container"]}>
         <div className={styles["text-container"]}>
           <p className={styles.text1}>Hello, I'm RealKal</p>
@@ -20,11 +18,13 @@ const AboutItem = () => {
             establish their presence online. I always strive to learn about the
             newest technologies and frameworks.
           </p>
+          <button>Read more <img src={images.arrow} /></button>
         </div>
-        <div className={styles["image-container"]}>
+        <div className={styles["about-image-container"]}>
           <img src={images.image2} className={styles.image2} />
           <img src={images.dots} className={styles.dots1} />
           <img src={images.dots} className={styles.dots2} />
+          <img src={images.longHorizontalLine} className={styles["horizontal-line"]} />
         </div>
       </div>
     </>

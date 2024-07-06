@@ -1,0 +1,78 @@
+.about-container {
+  display: flex;
+  gap: 150px;
+  margin-bottom: 100px;
+}
+
+.text-container {
+  color: var(--color-grey);
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 700px;
+  padding: 20px 0px;
+}
+
+.text-container p {
+  margin: 0;
+  padding: 0;
+}
+
+.text-container button {
+  height: 50px;
+  background: transparent;
+  color: var(--color-white);
+  border: 2px solid var(--color-purple);
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.text-container button:hover {
+  cursor: pointer;
+  background-color: var(--color-purple);
+  color: var(--color-bg);
+  border: none;
+  border-radius: 5px;
+  transition: border-radius 0.2s ease;
+}
+
+.text-container button img {
+  height: 20px;
+}
+
+.about-image-container {
+  position: relative;
+  width: 300px;
+  height: 432px;
+}
+
+.about-image-container .image2 {
+  position: absolute;
+  top: -70px;
+  height: 500px;
+}
+
+.about-image-container .dots1 {
+  position: absolute;
+  height: 60px;
+  top: -10px;
+}
+
+.about-image-container .dots2 {
+  position: absolute;
+  bottom: 30%;
+  right: 0;
+}
+
+.about-image-container .horizontal-line {
+  width: 250px;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
