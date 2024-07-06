@@ -6,7 +6,7 @@ import SkillBox from "../../components/SkillBox/SkillBox";
 const Skills = () => {
   return (
     <>
-      <Separator text="Skills" />
+      <Separator text="skills" />
       <div className={styles["skill-container"]}>
         <div className={styles.images}>
           <img src={images.dots} className={styles.img1} />

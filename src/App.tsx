@@ -3,6 +3,7 @@ import NavBar from "./components/Navbar/NavBar"
 import ProjectCard from "./container/ProjectCard/ProjectCard"
 import Quote from "./components/Quote/Quote"
 import Skills from "./container/Skills/Skills"
+import AboutContainer from "./container/About/AboutContainer"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Quote />
       <ProjectCard />
       <Skills />
+      <AboutContainer />
     </div>
   )
 }

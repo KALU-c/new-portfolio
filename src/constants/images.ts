@@ -19,6 +19,7 @@ import twoSideArrow from "../assets/twoSideArrow.svg";
 import greaterThanOrEqual from "../assets/greaterThanOrEqual.svg";
 import rectangle from "../assets/rectangle.png";
 import longHorizontalLine from "../assets/longHorizontalLine.png";
+import image2 from "../assets/Image2.png";
 
 export default {
   discord,
@@ -33,6 +34,7 @@ export default {
   semiRectangle,
   randomLines,
   image1,
+  image2,
   horizontalLine,
   arrow,
   project1,

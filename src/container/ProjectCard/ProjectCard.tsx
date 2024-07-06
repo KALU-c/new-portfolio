@@ -7,7 +7,7 @@ import ProjectCardItem from "../../components/ProjectCardItems/ProjectCardItem";
 const ProjectCard = () => {
   return (
     <>
-      <Separator text="Projects" show={true}/>
+      <Separator text="projects" show={true}/>
       <div className={styles.decoration}>
         <img src={images.dots} className={styles.dots} />
         <img src={images.semiRectangle} className={styles["semi-rectangle"]} />

@@ -2,10 +2,11 @@
   display: flex;
   gap: 50px;
   margin-bottom: 100px;
+  justify-content: space-between;
 }
 
 .images {
-  width: 47%;
+  width: 335px;
   position: relative;
 }
 
