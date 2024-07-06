@@ -1,20 +1,22 @@
 import styles from "./NavBar.module.css";
 import images from "../../constants/images";
+import useCustomNavigate from "../../Hooks/useCustomNavigate";
 
 const NavBar = () => {
+  const { goToHome, goToProjects, goToGithub, goToTelegram } = useCustomNavigate();
   return (
     <>
       <div className={styles["sticky-nav"]}>
         <img src={images.verticalLine} className={styles["vertical-line"]} />
-        <img src={images.github} className={styles.github} />
-        <img src={images.telegram} className={styles.telegram} />
+        <img src={images.github} className={styles.github} onClick={goToGithub}/>
+        <img src={images.telegram} className={styles.telegram} onClick={goToTelegram}/>
         <img src={images.linkedin} className={styles.linkedin} />
       </div>
       <div className={styles["nav-container"]}>
-        <p className={styles.logo}>Kalu</p>
+        <p className={styles.logo} onClick={goToHome}>Kalu</p>
         <ul>
-          <li><span className={styles["mini-hashtag"]}>#</span>home</li>
-          <li><span className={styles["mini-hashtag"]}>#</span>works</li>
+          <li onClick={goToHome}><span className={styles["mini-hashtag"]}>#</span>home</li>
+          <li onClick={goToProjects}><span className={styles["mini-hashtag"]}>#</span>works</li>
           <li><span className={styles["mini-hashtag"]}>#</span>about-me</li>
           <li><span className={styles["mini-hashtag"]}>#</span>contacts</li>
         </ul>

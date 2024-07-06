@@ -1,5 +1,6 @@
 import styles from "./Separator.module.css";
 import images from "../../constants/images";
+import useCustomNavigate from "../../Hooks/useCustomNavigate";
 
 interface Props {
   text: string;
@@ -7,6 +8,7 @@ interface Props {
 }
 
 const Separator = ({ text, show }: Props) => {
+  const { goToProjects } = useCustomNavigate();
   return (
     <div className={styles["separator-container"]}>
       <div className={styles.text}>
@@ -17,7 +19,7 @@ const Separator = ({ text, show }: Props) => {
         <img src={images.horizontalLine} className={styles.line} />
       </div>
       {show && (
-        <div className={styles["view-all"]}>
+        <div className={styles["view-all"]} onClick={goToProjects}>
           <p>View all</p>
           <img src={images.arrow} className={styles.arrow} />
         </div>
