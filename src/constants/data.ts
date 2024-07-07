@@ -112,6 +112,29 @@ const SmallProjectsData = [
     title: "School website",
     description: "React template website for my school"
   }
-]
+];
 
-export default { ProjectCardData, SkillCardData, ProjectPageData, SmallProjectsData }
+const SkillPageData = [
+  {
+    title: "Languages",
+    description: "Typescript Lua Python Javascript"
+  },
+  {
+    title: "Databases",
+    description: "SQLite PostgreSQL Mongo"
+  },
+  {
+    title: "Other",
+    description: "HTML CSS EJS SCSS REST"
+  },
+  {
+    title: "Tools",
+    description: "VSCode Linux Figma Arc Git Font Awesome"
+  },
+  {
+    title: "Frameworks",
+    description: "React Vue Discord.js Express.js Flask"
+  }
+];
+
+export default { ProjectCardData, SkillCardData, ProjectPageData, SmallProjectsData, SkillPageData }

@@ -4,7 +4,7 @@ import ProjectCard from "../container/ProjectCard/ProjectCard"
 import Quote from "../components/Quote/Quote"
 import Skills from "../container/Skills/Skills"
 import AboutContainer from "../container/About/AboutContainer"
-import Contact from "../container/Contact/Contact"
+import ContactContainer from "../container/Contact/ContactContainer"
 import Footer from "../components/Footer/Footer"
 
 function Home() {
@@ -16,7 +16,7 @@ function Home() {
       <ProjectCard />
       <Skills />
       <AboutContainer />
-      <Contact />
+      <ContactContainer />
       <Footer />
     </div>
   )

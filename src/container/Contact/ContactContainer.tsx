@@ -1,9 +1,9 @@
 import ContactItem from "../../components/ContactItem/ContactItem"
 import Separator from "../../components/Separator/Separator"
 import images from "../../constants/images"
-import styles from "./Contact.module.css"
+import styles from "./ContactContainer.module.css"
 
-const Contact = () => {
+const ContactContainer = () => {
   return (
     <>
       <Separator text="contacts"/>
@@ -12,4 +12,4 @@ const Contact = () => {
     </>
   )
 }
-export default Contact
+export default ContactContainer

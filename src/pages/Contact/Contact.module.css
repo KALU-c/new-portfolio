@@ -1,0 +1,18 @@
+.contact-images {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+.contact-images .contact-images-item {
+  display: flex;
+  color: var(--color-grey);
+  font-size: 18px;
+  gap: 8px;
+}
+
+.contact-images .contact-images-item:hover {
+  color: var(--color-white);
+  scale: 1.05;
+  cursor: pointer;
+}

@@ -1,10 +1,10 @@
-import Directory from "../components/Directory/Directory"
-import Footer from "../components/Footer/Footer"
-import NavBar from "../components/Navbar/NavBar"
-import ProjectCardItem from "../components/ProjectCardItems/ProjectCardItem"
-import Show from "../components/Show/Show"
-import SmallProjectCard from "../components/SmallProjectCard/SmallProjectCard"
-import data from "../constants/data"
+import Directory from "../../components/Directory/Directory"
+import Footer from "../../components/Footer/Footer"
+import NavBar from "../../components/Navbar/NavBar"
+import ProjectCardItem from "../../components/ProjectCardItems/ProjectCardItem"
+import Show from "../../components/Show/Show"
+import SmallProjectCard from "../../components/SmallProjectCard/SmallProjectCard"
+import data from "../../constants/data"
 import styles from "./Projects.module.css"
 
 const Projects = () => {

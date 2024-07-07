@@ -1,7 +1,9 @@
 import styles from "./Footer.module.css"
 import images from "../../constants/images"
+import useCustomNavigate from "../../Hooks/useCustomNavigate";
 
 const Footer = () => {
+  const { goToGithub, goToTelegram, goToLinkedin } = useCustomNavigate();
   return (
     <>
       <hr className={styles["horizontal-line"]}/>
@@ -16,10 +18,10 @@ const Footer = () => {
         <div className={styles.images}>
           <p>Media</p>
           <div className={styles["image-list"]}>
-            <img src={images.telegram} className={styles.telegram}/>
-            <img src={images.email} className={styles.email}/>
-            <img src={images.linkedin} className={styles.linkedin}/>
-            <img src={images.github} className={styles.github} />
+            <img src={images.telegram} className={styles.telegram} onClick={goToTelegram}/>
+            <img src={images.email} className={styles.email} />
+            <img src={images.linkedin} className={styles.linkedin} onClick={goToLinkedin}/>
+            <img src={images.github} className={styles.github} onClick={goToGithub}/>
           </div>
         </div>
       </div>

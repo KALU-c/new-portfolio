@@ -1,7 +1,11 @@
 import styles from "./AboutItem.module.css";
 import images from "../../constants/images";
 
-const AboutItem = () => {
+interface Props {
+  hideButton?: boolean
+}
+
+const AboutItem = ({ hideButton }: Props) => {
   return (
     <>
       <div className={styles["about-container"]}>
@@ -18,7 +22,7 @@ const AboutItem = () => {
             establish their presence online. I always strive to learn about the
             newest technologies and frameworks.
           </p>
-          <button>Read more <img src={images.arrow} /></button>
+          {!hideButton && <button>Read more <img src={images.arrow} /></button>}
         </div>
         <div className={styles["about-image-container"]}>
           <img src={images.image2} className={styles.image2} />

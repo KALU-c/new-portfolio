@@ -3,7 +3,7 @@
 }
 
 .directory {
-  font-size: 25px;
+  font-size: 28px;
   color: var(--color-white);
   font-weight: 700;
   margin: 0;
@@ -18,4 +18,5 @@
 .description {
   margin: 0;
   color: var(--color-grey);
+  font-size: 20px;
 }
