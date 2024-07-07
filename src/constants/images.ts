@@ -12,7 +12,7 @@ import randomLines from "../assets/randomLines.png";
 import image1 from "../assets/Image1.png";
 import horizontalLine from "../assets/horizontalLine.png";
 import arrow from "../assets/arrow.svg";
-import project1 from "../assets/project1.jpg";
+import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";

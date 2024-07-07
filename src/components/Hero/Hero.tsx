@@ -1,7 +1,9 @@
 import styles from "./Hero.module.css";
 import images from "../../constants/images";
+import useCustomNavigate from "../../Hooks/useCustomNavigate";
 
 const Hero = () => {
+  const { goToContact } = useCustomNavigate();
   return (
     <div className={styles["hero-container"]}>
       <div>
@@ -12,7 +14,7 @@ const Hero = () => {
         <p className={styles.desc}>
           He crafts a responsive website where technologies meets creativity
         </p>
-        <button>Contact me!!</button>
+        <button onClick={goToContact}>Contact me!!</button>
       </div>
       <div className={styles["image-container"]}>
         <img src={images.randomLines} className={styles["random-lines"]} />

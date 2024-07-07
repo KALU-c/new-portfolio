@@ -19,13 +19,12 @@ const Footer = () => {
           <p>Media</p>
           <div className={styles["image-list"]}>
             <img src={images.telegram} className={styles.telegram} onClick={goToTelegram}/>
-            <img src={images.email} className={styles.email} />
             <img src={images.linkedin} className={styles.linkedin} onClick={goToLinkedin}/>
             <img src={images.github} className={styles.github} onClick={goToGithub}/>
           </div>
         </div>
       </div>
-      <p className={styles.copyright}>&copy; copyright 2024. Made by Kalu</p>
+      <p className={styles.copyright}>&copy; copyright {new Date().getFullYear()}. Made by Kalu</p>
     </>
   );
 };

@@ -2,10 +2,11 @@ import images from "./images";
 
 const ProjectCardData = [
   {
-    languages: "HTML CSS JAVASCRIPT",
-    title: "ChertNodes",
-    description: "Minecraft servers hosting",
+    languages: "React MongoDB Express.js",
+    title: "GEP",
+    description: "Created a website for HMYC's GEP program to promote spiritual growth and community.",
     imgURL: images.project1,
+    link: "https://gep-frontend.vercel.app/"
   },
   {
     languages: "React Express Discord.js Node.js SCSS Python Flask",
