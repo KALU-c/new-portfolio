@@ -29,6 +29,6 @@ body #root {
 
 @media (max-width: 991px) {
   body #root {
-    padding: 0;
+    padding: 0px 10px;
   }
 }

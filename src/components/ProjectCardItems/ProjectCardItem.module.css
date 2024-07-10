@@ -1,7 +1,6 @@
 .card-items {
   border: 1px solid var(--color-grey);
-  min-width: 31%;
-  max-width: 31%;
+  width: 335px;
   align-self: flex-start;
 }
 
@@ -61,4 +60,42 @@
 .greater-img {
   height: 30px;
   width: 40px;
+}
+
+
+/***************** Media Query ******************/
+
+@media (max-width: 991px) {
+  .card-items .project-img {
+    height: 150px;
+  }
+
+  .mini-container {
+    padding: 10px;
+  }
+
+  .languages {
+    padding: 5px;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .buttons button {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px 10px;
+  }
+
+  .buttons button img {
+    height: 18px;
+  }
 }

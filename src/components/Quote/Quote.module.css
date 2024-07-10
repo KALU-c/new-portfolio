@@ -66,7 +66,25 @@
 /************* Media Query ****************/
 
 @media (max-width: 991px) {
+  .quote-main-container {
+    /* border: 1px solid red; */
+    margin-bottom: 0;
+  }
   .semi-rectangle {
     display: none;
+  }
+
+  .quotation-title .img1, .quotation-title .img2 {
+    height: 20px;
+  }
+
+  .quotation-title {
+    font-size: 17px;
+  }
+
+  .author {
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 20px;
   }
 }

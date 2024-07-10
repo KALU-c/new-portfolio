@@ -50,3 +50,11 @@
   flex-direction: column;
   gap: 20px;
 }
+
+/******************* Media Query ********************/
+
+@media (max-width: 991px) {
+  .images {
+    display: none;
+  }
+}
