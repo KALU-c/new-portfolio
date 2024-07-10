@@ -1,6 +1,6 @@
 .card-container {
   border: 1px solid var(--color-grey);
-  width: 30%;
+  width: 361px;
   margin-bottom: 20px;
   align-self: flex-start;
 }
@@ -52,4 +52,37 @@
 
 .card-container .mini-container button img {
   height: 25px;
+}
+
+
+/*************** Media Query ********************/
+
+@media (max-width: 991px) {
+  .card-container .language {
+    font-size: 16px;
+  }
+
+  .card-container .mini-container {
+    padding: 5px 10px;
+    margin: 0;
+  }
+
+  .card-container .mini-container .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .card-container .mini-container .description {
+    font-size: 16px;
+  }
+
+  .card-container .mini-container button {
+    border: 1px solid var(--color-purple);
+    padding: 6px 12px;
+    font-size: 16px;
+  }
+
+  .card-container .mini-container button img {
+    height: 20px;
+  }
 }

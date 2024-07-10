@@ -21,3 +21,23 @@
   padding: 10px;
   margin: 0;
 }
+
+
+/********************** Media Query ***********************/
+
+@media (max-width: 991px) {
+  .skill-box-container {
+    border: 1px solid var(--color-grey);
+    width: 100%;
+  }
+
+  .skill-box-container .title {
+    font-size: 18px;
+    padding: 5px 10px;
+  }
+
+  .skill-box-container .description {
+    font-size: 16px;
+    padding: 8px 10px;
+  }
+}

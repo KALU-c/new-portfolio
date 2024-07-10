@@ -67,8 +67,8 @@
 
 @media (max-width: 991px) {
   .quote-main-container {
-    /* border: 1px solid red; */
     margin-bottom: 0;
+    height: 180px;
   }
   .semi-rectangle {
     display: none;

@@ -20,3 +20,24 @@
   color: var(--color-grey);
   font-size: 20px;
 }
+
+
+/********************* Media Query *************************/
+
+@media (max-width: 991px) {
+  .directory-container {
+    margin: 30px 0px 30px 0px;
+  }
+
+  .directory {
+    font-size: 22px;
+  }
+
+  .directory .slash {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
