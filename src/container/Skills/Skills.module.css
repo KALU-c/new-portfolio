@@ -54,7 +54,24 @@
 /******************* Media Query ********************/
 
 @media (max-width: 991px) {
+
+  .skill-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+
   .images {
     display: none;
+  }
+
+  .skill-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
   }
 }

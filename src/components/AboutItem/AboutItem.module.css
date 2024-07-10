@@ -76,3 +76,37 @@
   bottom: 0;
   right: 0;
 }
+
+
+/******************* Media Query ********************/
+
+@media (max-width: 991px) {
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+
+  .text-container {
+    font-size: 17px;
+    gap: 20px;
+    padding: 10px 0px;
+  }
+
+  .text-container button {
+    height: 40px;
+    border: 1px solid var(--color-purple);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    width: 140px;
+  }
+
+  .text-container button img {
+    height: 18px;
+  }
+
+  .about-image-container {
+    display: none;
+  }
+}
