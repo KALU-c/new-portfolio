@@ -99,3 +99,14 @@
     height: 18px;
   }
 }
+
+@media (max-width: 472px) {
+  .card-items {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-items .project-img {
+    height: 230px;
+  }
+}

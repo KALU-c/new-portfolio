@@ -74,4 +74,8 @@
     align-items: center;
     padding: 10px 0px;
   }
+
+  .box {
+    width: 100%;
+  }
 }
