@@ -10,3 +10,12 @@
   left: -70px;
   top: 345%;
 }
+
+
+/******************* Media Query ********************/
+
+@media (max-width: 991px) {
+  .dots, .rectangle {
+    display: none;
+  }
+}

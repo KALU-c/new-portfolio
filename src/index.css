@@ -24,3 +24,11 @@ body {
 body #root {
   padding: 5px 10% 5px;
 }
+
+/****************** Media Query ********************/
+
+@media (max-width: 991px) {
+  body #root {
+    padding: 0px 10px;
+  }
+}

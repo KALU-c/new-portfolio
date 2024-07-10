@@ -1,5 +1,5 @@
 .quote-main-container {
-  height: 35vh;
+  height: 250px;
 }
 
 .quote-container {
@@ -61,4 +61,30 @@
 
 .semi-rectangle .semi-rectangle-img {
   height: 100px;
+}
+
+/************* Media Query ****************/
+
+@media (max-width: 991px) {
+  .quote-main-container {
+    margin-bottom: 0;
+    height: 180px;
+  }
+  .semi-rectangle {
+    display: none;
+  }
+
+  .quotation-title .img1, .quotation-title .img2 {
+    height: 20px;
+  }
+
+  .quotation-title {
+    font-size: 17px;
+  }
+
+  .author {
+    font-size: 15px;
+    padding: 10px;
+    padding-top: 20px;
+  }
 }

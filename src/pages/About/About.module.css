@@ -40,3 +40,28 @@
 .focus {
   color: var(--color-white);
 }
+
+
+/************************ Media Query **********************/
+
+@media (max-width: 991px) {
+  .fun-fact-container {
+    margin-bottom: 80px;
+  }
+
+  .fun-fact-container .images {
+    display: none;
+  }
+
+  .skill-container {
+    margin-bottom: 70px;
+  }
+
+  .fun-fact-container .text > p {
+    font-size: 16px;
+  }
+  
+  .focus {
+    font-size: 16px;
+  }
+}

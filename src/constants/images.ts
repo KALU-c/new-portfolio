@@ -22,6 +22,8 @@ import greaterThanOrEqual from "../assets/greaterThanOrEqual.svg";
 import rectangle from "../assets/rectangle.png";
 import longHorizontalLine from "../assets/longHorizontalLine.png";
 import image2 from "../assets/Image2.png";
+import bars from "../assets/bars.svg";
+import xmark from "../assets/xmark.svg";
 
 export default {
   discord,
@@ -48,4 +50,6 @@ export default {
   greaterThanOrEqual,
   rectangle,
   longHorizontalLine,
+  bars,
+  xmark,
 };
