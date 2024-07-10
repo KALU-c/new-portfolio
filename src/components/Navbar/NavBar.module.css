@@ -77,7 +77,6 @@
   }
   .nav-container {
     display: block;
-    /* border: 1px solid red; */
     margin: 0;
     padding: 0px 10px;
   }
@@ -89,6 +88,7 @@
   }
   .nav-container > .logo > p {
     margin: 0;
+    font-size: 22px;
   }
   .nav-container .logo img {
     display: flex;
@@ -115,5 +115,6 @@
   }
   .nav-container ul li {
     margin: 0;
+    font-size: 18px;
   }
 }
