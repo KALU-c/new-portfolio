@@ -62,3 +62,11 @@
 .semi-rectangle .semi-rectangle-img {
   height: 100px;
 }
+
+/************* Media Query ****************/
+
+@media (max-width: 991px) {
+  .semi-rectangle {
+    display: none;
+  }
+}

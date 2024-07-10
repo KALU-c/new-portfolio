@@ -85,3 +85,10 @@
   width: 20px;
   background-color: var(--color-purple);
 }
+
+@media (max-width: 991px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

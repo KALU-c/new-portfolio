@@ -1,9 +1,16 @@
 import styles from "./NavBar.module.css";
 import images from "../../constants/images";
 import useCustomNavigate from "../../Hooks/useCustomNavigate";
+import { useState } from "react";
 
 const NavBar = () => {
+  const [ menuOpen, isMenuOpen ] = useState(false);
   const { goToHome, goToProjects, goToAbout, goToContact, goToGithub, goToTelegram, goToLinkedin } = useCustomNavigate();
+
+  function handleMenu() {
+    isMenuOpen(!menuOpen);
+  }
+  
   return (
     <>
       <div className={styles["sticky-nav"]}>
@@ -13,8 +20,15 @@ const NavBar = () => {
         <img src={images.linkedin} className={styles.linkedin} onClick={goToLinkedin}/>
       </div>
       <div className={styles["nav-container"]}>
-        <p className={styles.logo} onClick={goToHome}>Kalu</p>
-        <ul>
+        <div className={styles.logo}>
+          <p className={styles.logo} onClick={goToHome}>Kalu</p>
+          {
+            menuOpen 
+            ? <img src={images.xmark} onClick={handleMenu} className={styles.menu}/>
+            : <img src={images.bars} onClick={handleMenu} className={styles.menu}/>
+          }
+        </div>
+        <ul className={`${menuOpen ? styles.open : styles.close}`}>
           <li onClick={goToHome}><span className={styles["mini-hashtag"]}>#</span>home</li>
           <li onClick={goToProjects}><span className={styles["mini-hashtag"]}>#</span>works</li>
           <li onClick={goToAbout}><span className={styles["mini-hashtag"]}>#</span>about-me</li>
