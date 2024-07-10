@@ -41,9 +41,3 @@
     width: 80%;
   }
 }
-
-@media (max-width: 472px) {
-  .card-container {
-    padding: 0px 20px;
-  }
-}
