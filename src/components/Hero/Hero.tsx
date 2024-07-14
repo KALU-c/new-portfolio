@@ -8,11 +8,11 @@ const Hero = () => {
     <div className={styles["hero-container"]}>
       <div>
         <p className={styles["hero-header"]}>
-          Kalu is a <span className={styles["header-color"]}>web designer</span> and a{" "}
+         I am Kalu, a <span className={styles["header-color"]}>software engineer</span> and {" "}
           <span className={styles["header-color"]}>full-stack developer</span>
         </p>
         <p className={styles.desc}>
-          He crafts a responsive website where technologies meets creativity
+        I use tech and creativity to make responsive, unique websites that shine.
         </p>
         <button onClick={goToContact}>Contact me!!</button>
       </div>
@@ -21,8 +21,8 @@ const Hero = () => {
         <img src={images.image1} className={styles.image1} />
         <img src={images.dots} className={styles.dots} />
         <p className={styles["working-on"]}>
-          <div className={styles.rectangle}></div> Currently working on{" "}
-          <span className={styles.focus}>Portfolio</span>
+          <div className={styles.rectangle}></div> Currently working on a{" "}
+          <span className={styles.focus}>project</span>
         </p>
       </div>
     </div>

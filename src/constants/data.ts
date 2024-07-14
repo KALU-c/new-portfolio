@@ -31,11 +31,11 @@ const SkillCardData = [
     title5: "Frameworks",
   },
   {
-    description1: "Typescript Lua Python Javascript",
-    description2: "SQLite PostgreSQL Mongo",
+    description1: "Typescript C++ Python Javascript",
+    description2: "MSSQL PostgreSQL MongoDB",
     description3: "HTML CSS EJS SCSS REST",
-    description4: "VSCode Linux Figma Arc Git Font Awesome",
-    description5: "React Vue Discord.js Express.js Flask",
+    description4: "VSCode Linux Figma Git Github",
+    description5: "React Express.js Hono.js",
   }
 ];
 

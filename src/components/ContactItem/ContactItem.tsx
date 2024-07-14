@@ -7,8 +7,8 @@ const ContactItem = () => {
   return (
     <div className={styles["contact-container"]}>
       <p className={styles.text}>
-        I'm interested in freelance opportunities. However, if you have other
-        requests or questions, don't hesitate to contact me
+        I'm open to freelance opportunities. Feel free to reach out for any
+        other requests or questions.
       </p>
       <div className={styles["contact-card"]}>
         <p className={styles.message}>Message me here</p>
