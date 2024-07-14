@@ -26,18 +26,18 @@ const Skills = () => {
             <div className={[styles["skill-box-2"], styles.box].join(" ")}>
               <SkillBox
                 title="Databases"
-                description="MSSQL MySQL PostgreSQL Mongo"
+                description="MSSQL PostgreSQL Mongo"
               />{" "}
               <SkillBox title="Other" description="HTML CSS EJS SCSS REST" />
             </div>
             <div className={[styles["skill-box-2"], styles.box].join(" ")}>
               <SkillBox
                 title="Tools"
-                description="VSCode Linux Figma Arc Git Font Awesome"
+                description="VSCode Linux Figma Git Github"
               />{" "}
               <SkillBox
                 title="Frameworks"
-                description="React Vue Discord.js Express.js Flask"
+                description="React Express.js Hono.js"
               />
             </div>
           </div>

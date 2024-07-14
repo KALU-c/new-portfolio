@@ -13,7 +13,7 @@ const Footer = () => {
             <p className={styles.logo}>Kalu</p>
             <p>endekaluzemenu2134@gmail.com</p>
           </div>
-          <p className={styles.title}>Web designer and full-stack developer</p>
+          <p className={styles.title}>Software engineer and Full-stack developer</p>
         </div>
         <div className={styles.images}>
           <p>Media</p>

@@ -30,7 +30,7 @@ const NavBar = () => {
         </div>
         <ul className={`${menuOpen ? styles.open : styles.close}`}>
           <li onClick={goToHome}><span className={styles["mini-hashtag"]}>#</span>home</li>
-          <li onClick={goToProjects}><span className={styles["mini-hashtag"]}>#</span>works</li>
+          <li onClick={goToProjects}><span className={styles["mini-hashtag"]}>#</span>projects</li>
           <li onClick={goToAbout}><span className={styles["mini-hashtag"]}>#</span>about-me</li>
           <li onClick={goToContact}><span className={styles["mini-hashtag"]}>#</span>contacts</li>
         </ul>
